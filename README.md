@@ -1,6 +1,6 @@
-# 📚 Smart Study Planner (CLI-Based AI Project)
+# Smart Study Planner (CLI-Based AI Project)
 
-## 🧠 Overview
+## Overview
 
 Smart Study Planner is a Command Line Interface (CLI) based application that helps students plan and prioritize their studies efficiently. The system uses a simple rule-based AI approach to analyze subject difficulty, available study time, and exam deadlines to generate an optimized study plan.
 
@@ -8,13 +8,13 @@ This project is developed as part of the **Fundamentals of AI and ML (CSA2001)**
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Students often struggle with time management and deciding what to study first, especially when multiple subjects and deadlines are involved. This leads to inefficient preparation and increased stress.
 
 ---
 
-## 💡 Solution
+## Solution
 
 This application acts as a **rule-based intelligent agent** that:
 
@@ -25,7 +25,7 @@ This application acts as a **rule-based intelligent agent** that:
 
 ---
 
-## 🤖 AI Concept Used
+## AI Concept Used
 
 The project implements a **Rule-Based Intelligent Agent**, which:
 
@@ -40,19 +40,19 @@ Priority is calculated using:
 
 ---
 
-## ⚙️ Features
+## Features
 
-* ➕ Add subjects with difficulty, hours, and exam date
-* 📋 View all subjects
-* ✏️ Edit subject details
-* ❌ Delete subjects
-* 📅 Generate prioritized study plan
-* 🔥 Get today's study recommendation
-* 💾 Data stored using JSON file
+* Add subjects with difficulty, hours, and exam date
+* View all subjects
+* Edit subject details
+* Delete subjects
+* Generate prioritized study plan
+* Get today's study recommendation
+* Data stored using JSON file
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * Language: Python
 * Interface: Command Line Interface (CLI)
@@ -60,7 +60,7 @@ Priority is calculated using:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 study_planner/
@@ -70,16 +70,17 @@ study_planner/
 ├── data.json        # Stores subject data
 ├── README.md
 ├── Project Report
+├── screenshots
 ```
 
 ---
 
-## 🚀 How to Run the Project
+## How to Run the Project
 
 ### 1. Clone the Repository
 
 ```
-git clone [https://github.com/rimi14vish-oss/study-planner](https://github.com/rimi14vish-oss/Study-Planner/)
+git clone https://github.com/rimi14vish-oss/study-planner
 cd study-planner
 ```
 
@@ -91,7 +92,7 @@ python main.py
 
 ---
 
-## 🖥️ Usage Instructions
+## Usage Instructions
 
 After running the program, you will see:
 
@@ -115,10 +116,10 @@ After running the program, you will see:
 
 ---
 
-## 📊 Example Output
+## Example Output
 
 ```
-📅 Study Plan (High → Low Priority):
+Study Plan (High → Low Priority):
 
 1. Physics (Priority: 6.5)
 2. Mathematics (Priority: 5.2)
@@ -127,7 +128,7 @@ After running the program, you will see:
 
 ---
 
-## 🔍 Key Implementation Details
+## Key Implementation Details
 
 * Priority calculation based on multiple weighted factors
 * Sorting algorithm used to rank subjects
@@ -136,7 +137,7 @@ After running the program, you will see:
 
 ---
 
-## 🌍 Real-World Applicability
+## Real-World Applicability
 
 This system can be used by:
 
@@ -146,7 +147,7 @@ This system can be used by:
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 * Uses rule-based logic (no advanced ML model)
 * Requires manual input of data
@@ -154,7 +155,7 @@ This system can be used by:
 
 ---
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 * Integration with calendar APIs
 * Machine learning-based prediction
@@ -163,7 +164,7 @@ This system can be used by:
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 * Name: Rimi Vishwakarma
 * Reg No: 25BCE11228
@@ -171,7 +172,7 @@ This system can be used by:
 
 ---
 
-## 📌 Conclusion
+## Conclusion
 
 This project demonstrates how basic AI concepts like rule-based systems can be applied to solve real-world problems effectively. It highlights the importance of structured decision-making in improving productivity and reducing stress.
 
